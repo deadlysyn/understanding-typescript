@@ -10,8 +10,13 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string) {
     }
 }
 
-const number1 = 5
+// explicit type
+let number1: number
+number1 = 5
+// inferred type - best when assigning up front
 const number2 = 2.8
+// don't do this...
+// let number2: number = 2.8
 const printResult = true
 const resultPhrase = 'Result is: '
 
